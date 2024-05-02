@@ -1,0 +1,23 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  commercial_name: MyString
+  substance: MyString
+  packing: MyString
+  concentration: MyString
+  unit: MyString
+  laboratory: MyString
+  register_number: MyString
+  reference_name: MyString
+  receit_notification: MyString
+
+two:
+  commercial_name: MyString
+  substance: MyString
+  packing: MyString
+  concentration: MyString
+  unit: MyString
+  laboratory: MyString
+  register_number: MyString
+  reference_name: MyString
+  receit_notification: MyString

@@ -1,0 +1,14 @@
+<p style="color: green"><%= notice %></p>
+
+<h1>Stashes</h1>
+
+<div id="stashes">
+  <% @stashes.each do |stash| %>
+    <%= render stash %>
+    <p>
+      <%= link_to "Show this stash", stash %>
+    </p>
+  <% end %>
+</div>
+
+<%= link_to "New stash", new_stash_path %>

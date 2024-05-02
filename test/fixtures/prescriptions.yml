@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  patient: one
+  professional: one
+  issue_date: 2024-05-02
+  expiration_date: 2024-05-02
+
+two:
+  patient: two
+  professional: two
+  issue_date: 2024-05-02
+  expiration_date: 2024-05-02

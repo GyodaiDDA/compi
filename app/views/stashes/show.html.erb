@@ -1,0 +1,10 @@
+<p style="color: green"><%= notice %></p>
+
+<%= render @stash %>
+
+<div>
+  <%= link_to "Edit this stash", edit_stash_path(@stash) %> |
+  <%= link_to "Back to stashes", stashes_path %>
+
+  <%= button_to "Destroy this stash", @stash, method: :delete %>
+</div>

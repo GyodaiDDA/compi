@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  prescription: one
+  item: MyString
+  quantity: 1
+  unit: 1
+  frequency: MyString
+  first_intake: 2024-05-02
+
+two:
+  prescription: two
+  item: MyString
+  quantity: 1
+  unit: 1
+  frequency: MyString
+  first_intake: 2024-05-02
