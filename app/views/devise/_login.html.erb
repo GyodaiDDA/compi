@@ -1,4 +1,5 @@
 <% if user_signed_in? %>
+  <%= "Logado como #{current_user.email}" %>
   <%= button_to 'sair', destroy_user_session_path, method: :delete %>
 <% else %>
   <%= button_to 'criar usuário', new_user_registration_path, method: :get %>
