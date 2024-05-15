@@ -1,0 +1,6 @@
+<% if user_signed_in? %>
+  <%= button_to 'sair', destroy_user_session_path, method: :delete %>
+<% else %>
+  <%= button_to 'criar usuário', new_user_registration_path, method: :get %>
+  <%= button_to 'fazer login', new_user_session_path, method: :get %>
+<% end %>
