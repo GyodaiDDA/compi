@@ -3,7 +3,7 @@
 AllCops:
   NewCops: enable
   Exclude:
-    - 'spec'
+    - 'spec/**/*'
     - 'config/**/*'
     - 'db/**/*'
     - 'bin/**/*'

@@ -16,7 +16,9 @@ gem 'tzinfo-data', platforms: %i[windows jruby]
 
 group :development, :test do
   gem 'debug', platforms: %i[mri windows]
+  gem 'factory_bot_rails'
   gem 'rubocop'
+  gem 'simplecov', '~> 0.22.0'
 end
 
 group :development do
@@ -29,5 +31,3 @@ group :test do
   gem 'rspec-rails'
   gem 'selenium-webdriver'
 end
-
-gem "simplecov", "~> 0.22.0"
