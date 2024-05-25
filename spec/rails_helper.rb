@@ -64,4 +64,6 @@ RSpec.configure do |config|
   # config.filter_gems_from_backtrace("gem name")
   # include factories for tests
   config.include FactoryBot::Syntax::Methods
+  # include Warden to login users during tests
+  config.include Warden::Test::Helpers
 end
