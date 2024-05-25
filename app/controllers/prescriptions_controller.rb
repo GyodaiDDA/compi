@@ -1,5 +1,6 @@
 class PrescriptionsController < ApplicationController
   before_action :set_prescription, only: %i[show edit update destroy]
+  before_action -> { restrict_access(%i[professional]) }, only: %i[index]
 
   # GET /prescriptions or /prescriptions.json
   def index
